@@ -212,12 +212,15 @@ footer .email-link:hover{
         text-align: center;
         padding: 0;
     }
+    .weather-image {
+        height: 240px;
+    }
 
 }
 @media (max-width: 576px) {
     .btn-branding {
-        font-size: 14px; /* Mniejszy tekst */
-        padding: 10px 20px; /* Mniejsze wymiary przycisku */
+        font-size: 14px; 
+        padding: 10px 20px; 
     }
     .weather-image{
         height: 250px;
@@ -226,5 +229,10 @@ footer .email-link:hover{
 @media (max-width: 768px) {
     .weather-image {
         height: 240px;
+    }
+}
+@media (max-width: 1024px) {
+    .weather-image {
+        height: 330px;
     }
 }
