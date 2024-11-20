@@ -219,4 +219,12 @@ footer .email-link:hover{
         font-size: 14px; /* Mniejszy tekst */
         padding: 10px 20px; /* Mniejsze wymiary przycisku */
     }
+    .weather-image{
+        height: 250px;
+    }
+}
+@media (max-width: 768px) {
+    .weather-image {
+        height: 240px;
+    }
 }
