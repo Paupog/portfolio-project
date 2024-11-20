@@ -225,6 +225,9 @@ footer .email-link:hover{
     .weather-image{
         height: 250px;
     }
+    br{
+        display: none;
+    }
 }
 @media (max-width: 768px) {
     .weather-image {
